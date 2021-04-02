@@ -1,0 +1,314 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: lightgrey;
+    font-weight: none;
+}
+.container{
+    /*width: 910px;*/
+    margin-left: 20%;
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 380px;
+    background-image: url(Images/students.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%  100%;
+}
+input[type="search"]{
+    margin: 5px;
+    background-color: rgba(36, 3, 126, 0.911) ;
+    color:white;
+    float:right;
+    height: 30px;
+}
+button{
+    margin: 5px;
+    background-color: rgba(36, 3, 126, 0.911) ;
+    color:#f6f5f5;
+    float:right;
+    height: 30px;
+}
+
+#kryesore{
+    width: 100%;
+    height: 500px;
+}
+article{
+   /* width: 70%;*/
+    float: left;
+}
+article h1{
+    width: 80%;
+    border-bottom: 2px solid  #B73225;
+    color: #004E7C;
+    font-size: 17px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+article img{
+    float: left;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+}
+article a{
+    color: #004E7C;
+    text-decoration: none;
+}
+aside{
+    float:right;
+	/*width:29%;*/
+	background-color:white;
+    }
+aside h2{
+    width: 70%;
+    border-bottom: 2px solid  #B73225;
+    color: #004E7C;
+    font-size: 17px;
+  
+ 
+}
+aside h1{
+    font-size: 15px;
+    color: #5C5F58;
+}
+aside a{
+    text-decoration: none;
+    color: black;
+}
+aside p{
+    border-bottom: 1px solid  #B73225;
+    padding-bottom: 10px;
+    width: 95%;
+    margin-left: 2%;
+}
+#kurse{
+   /* width: 100%;
+    height:550px;*/
+    background-color: #f6f5f5;
+}
+#kurse2{
+    width: 40%;
+    display: inline;
+}
+#kurse h1{
+    color:  #004E7C;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: none;
+    padding-bottom: 10px;
+    margin-left:25%;
+    border-bottom: 2px solid  #B73225;
+    width: 50%;
+}
+#kurse2 img{
+    width:200px;
+    height: 200px;
+}
+
+#kurse a{
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    color:#004E7C ;
+    padding: 10px;
+}
+#kurse tbody tr{
+    text-align: center; 
+    font-weight: bold; 
+    color: #5C5F58;
+}
+#trajnime{
+    float: left;
+    width: 25%;
+
+}
+#trajnime img{
+    width: 190px;
+    height: 190px;
+}
+#trajnime h2{
+    font-size: 17px;
+  margin-left: 60px;
+    font-weight: bold; 
+    color: #5C5F58;
+}
+#trajnime p{
+    width: 95%;
+    margin: 10px auto;
+    height: 60px;
+}
+#trajnime a {
+    text-decoration: none;
+}
+#trajnime a:hover{
+    text-decoration: underline;
+}
+#trajnime p,a{color:#5C5F58 ;}
+#trajner{
+    width: 100%;
+    
+}
+#trajner h1{
+    color:  #004E7C;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: none;
+    padding-bottom: 10px;
+    margin-left:25%;
+    border-bottom: 2px solid  #B73225;
+    width: 50%;
+}
+#trajner img{
+    width: 190px;
+    height: 190px;
+    border-radius: 20%;
+  
+
+}
+#trajner a{
+    color: #004E7C;
+    float: right;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+#trajner tbody tr{
+    text-align: center; 
+    font-weight: bold;
+     color: #5C5F58;
+}
+
+#oraristori{
+    width: 100%;
+
+}
+
+/*
+#orari{
+   /* width: 50%;
+    float: left;
+}
+*/
+#orari h1{
+    color:  #004E7C;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: none;
+    padding-bottom: 10px;
+    margin-left:25%;
+    border-bottom: 2px solid  #B73225;
+    width: 50%;
+}
+#orari h2{
+    width: 69%;
+    color: #5C5F58;
+    font-size: 15px;
+}
+#orari p{
+    color:#5C5F58 ;
+    font-size: 13px;
+    font-weight: bold;
+}
+#orari h2 p {display: inline;}
+#orari img{
+    padding:10px;
+    width:15% ;
+    height: 50px;
+    float: left;
+
+}/*
+#stori {
+   width: 49%;
+    float: right;
+}*/
+#stori h1{
+    color:  #004E7C;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: none;
+    padding-bottom: 10px;
+    margin-left:25%;
+    border-bottom: 2px solid  #B73225;
+    width: 50%;
+}
+#stori img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+#stori h2{
+    width: 69%;
+    color: #5C5F58;
+    font-size: 15px;
+}
+#stori p{
+    font-size: 13px;
+}
+#partner1{
+    margin-left: 0px;
+    width: 100%;
+    background-color:#1f3c88;
+}
+#partner1 h1{
+    margin-left: 15px;
+    text-align: center;
+    color:#e6d5b8;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+     padding-bottom: 10px;
+}
+#partner{
+    margin-left: 0px;
+    width: 100%;
+    background-color:#1f3c88;
+}
+#partner h1{
+    margin-left: 15px;
+    text-align: center;
+    color:#e6d5b8;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+     padding-bottom: 10px;
+}
+#partner img {
+    width: 24%;
+    float: left;
+    margin-left: 10px;
+}
+#fund{
+    width: 100%;
+  
+    background-color: brown;
+}
+#fund img{
+    width: 100px;
+    height: 100px;
+}
+#kontakti{
+    width: 32%;
+    float: left;
+}
+#kontakti img{
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#kontakti p{
+    color: #e6d5b8;
+    text-align: center;
+    
+}
+#kontakti a{
+    text-decoration: none;
+}
